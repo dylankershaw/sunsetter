@@ -1,0 +1,11 @@
+{
+  "env": {
+    "TWILIO_ACCOUNT_SID": "@twilio_account_sid",
+    "TWILIO_AUTH_TOKEN": "@twilio_auth_token",
+    "TWILIO_FROM_NUMBER": "@twilio_from_number",
+    "TWILIO_TO_NUMBER": "@twilio_to_number",
+    "SUNBURST_EMAIL": "@sunburst_email",
+    "SUNBURST_PASSWORD": "@sunburst_password",
+    "GEOLOCATION": "@geolocation"
+  }
+}

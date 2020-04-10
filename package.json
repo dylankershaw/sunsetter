@@ -16,5 +16,9 @@
     "url": "https://github.com/dylankershaw/sunsetter/issues"
   },
   "homepage": "https://github.com/dylankershaw/sunsetter#readme",
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.19.2",
+    "qs": "^6.9.3",
+    "twilio": "^3.42.1"
+  }
 }
