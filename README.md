@@ -8,4 +8,4 @@ Uses [SunsetWx](https://sunsetwx.com/) to get daily sunset quality predictions a
 - pull down env vars locally: `firebase functions:config:get > .runtimeconfig.json`
 
 ### Triggering this daily
-This works best when triggered via a daily cron job. I recommend [Easy Cron](https://www.easycron.com).
+This works best when triggered via a daily cron job after 1pm local time. I recommend [Easy Cron](https://www.easycron.com).
