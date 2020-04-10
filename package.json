@@ -1,0 +1,20 @@
+{
+  "name": "sunsetter",
+  "version": "1.0.0",
+  "description": "Uses [SunsetWx](https://sunsetwx.com/) to get daily sunset quality predictions and sends a text if it's predicted to be above a predefined threshold.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylankershaw/sunsetter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylankershaw/sunsetter/issues"
+  },
+  "homepage": "https://github.com/dylankershaw/sunsetter#readme",
+  "dependencies": {}
+}
