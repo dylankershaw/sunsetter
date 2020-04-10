@@ -1,5 +1,8 @@
-to deploy: firebase deploy --only functions
-to access set env vars example: 
-to pull down env vars locally
+# Sunsetter
 
-make sure to be in /functions folder when doing this stuff
+Uses [SunsetWx](https://sunsetwx.com/) to get daily sunset quality predictions and sends a text if it's predicted to be above a predefined threshold.
+
+### useful firebase-tools CLI commands
+- deploy: `firebase deploy --only functions`
+- set env vars: `firebase functions:config:set env.geolocation="57.2314222,90.5467432"`
+- pull down env vars locally: `firebase functions:config:get > .runtimeconfig.json`
