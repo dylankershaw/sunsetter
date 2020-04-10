@@ -6,3 +6,6 @@ Uses [SunsetWx](https://sunsetwx.com/) to get daily sunset quality predictions a
 - deploy: `firebase deploy --only functions`
 - set env vars: `firebase functions:config:set env.geolocation="57.2314222,90.5467432"`
 - pull down env vars locally: `firebase functions:config:get > .runtimeconfig.json`
+
+### Triggering this daily
+This works best when triggered via a daily cron job. I recommend https://www.easycron.com/user.
