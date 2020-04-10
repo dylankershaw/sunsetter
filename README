@@ -1,0 +1,5 @@
+to deploy: firebase deploy --only functions
+to access set env vars example: 
+to pull down env vars locally
+
+make sure to be in /functions folder when doing this stuff
