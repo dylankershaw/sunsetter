@@ -58,7 +58,7 @@ async function sendText(prediction) {
   }
 }
 
-const THRESHOLD = 50;
+const THRESHOLD = 60;
 
 export default async (_req, res) => {
   const prediction = await getPrediction();
