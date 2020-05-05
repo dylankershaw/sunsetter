@@ -1,6 +1,6 @@
 import { getPrediction, sendText } from './helpers';
 
-const THRESHOLD = 60;
+const THRESHOLD = 50;
 
 export default async (_req, res) => {
   const prediction = await getPrediction('sunset');
